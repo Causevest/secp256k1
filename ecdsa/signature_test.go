@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Causevest/secp256k1"
 	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 )
 
 // hexToBytes converts the passed hex string into bytes and will panic if there

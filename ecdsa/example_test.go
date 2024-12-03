@@ -9,9 +9,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
+	"github.com/Causevest/secp256k1"
+	"github.com/Causevest/secp256k1/ecdsa"
 	"github.com/decred/dcrd/crypto/blake256"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

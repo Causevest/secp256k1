@@ -1,5 +1,5 @@
-module github.com/decred/dcrd/dcrec/secp256k1/v4
+module github.com/Causevest/secp256k1
 
-go 1.17
+go 1.22.5
 
-require github.com/decred/dcrd/crypto/blake256 v1.0.1
+require github.com/decred/dcrd/crypto/blake256 v1.1.0 // indirect
